@@ -1,0 +1,112 @@
+/*
+ * user.css
+ *
+ * Use this file for adding custom CSS style. These styles will override
+ * default theme styles. You can enable/disable this CSS file inside
+ * WordPress Appearance > Theme Options > General
+ */
+
+/* ---------------------------------------------------------------
+ * 1. GENERAL
+ * Place your general theme styles in this section.
+ * ------------------------------------------------------------ */
+
+.single .entry-content p,
+.single .entry-content ul,
+.single .entry-content ol {
+	font-size: 1.1666em;
+}
+
+
+/* ---------------------------------------------------------------
+ * 2. TABLET
+ * CSS fallback for device width 768px or below
+ * ------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+/* ---------------------------------------------------------------
+ * 3. MOBILE
+ * CSS fallback for device width 480px or below
+ * ------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {
+
+
+}
+.primary-nav {
+    background-color:#444444;
+}
+ul.nav-menu > li > a {
+    text-shadow: none;
+    color:#dadada;
+}
+.primary-nav li:hover > a {
+    color:#ffffff;
+}
+ul.nav-menu > li.current-menu-item > a,
+ul.nav-menu > li.current-menu-ancestor > a,
+ul.nav-menu > li.current_page_item > a,
+ul.nav-menu > li.current_page_ancestor > a {
+    color:#000000;
+    border-top-color: #e00000;
+}
+.primary-nav li ul {
+    background-color:#ffffff;
+}
+.primary-nav li ul li a {
+    color:#555555;
+}
+.primary-nav li ul li:hover > a {
+    color:#333333;
+    background-color:#f0f0f0;
+}
+h3.sb-title {
+    color:#999;
+}
+#secondary {
+    color:#aaa;
+    background-color:#444;
+}
+#secondary .sep {
+    color:#aaa;
+}
+#secondary a,
+#secondary ul a,
+#secondary ul .entry-meta a,
+#secondary ul .widget .entry-meta a {
+    color:#ccc;
+}
+#secondary a:hover,
+#secondary ul a:hover,
+#secondary ul .entry-meta a:hover,
+#secondary ul .widget .entry-meta a:hover {
+    color:#fff;
+}
+h3.sc-title {
+    color:#fff;
+}
+#secondary .widget ul li {
+    border-bottom-color: #5e5e5e;
+}
+
+#secondary .widget ul ul {
+    border-top-color: #5e5e5e;
+}
+#footer {
+    color:#aaa;
+    background-color:#333;
+}
+body.is-stretched.custom-background {
+    background-color:#333;
+}
+#footer a {
+    color:#ccc;
+}
+#footer a:hover {
+    color:#fff;
+}
